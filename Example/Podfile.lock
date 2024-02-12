@@ -1,0 +1,91 @@
+PODS:
+  - Alamofire (5.8.0)
+  - IQKeyboardManagerSwift (6.5.12)
+  - MarkdownKit (1.7.1)
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.2)
+  - PINRemoteImage/Core (3.0.3):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.3):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.3):
+    - PINCache (~> 3.0.3)
+    - PINRemoteImage/Core
+  - ReachabilitySwift (5.0.0)
+  - Socket.IO-Client-Swift (16.1.0):
+    - Starscream (~> 4.0.6)
+  - Starscream (4.0.6)
+  - SwiftSoup (2.6.1)
+  - Texture (3.1.0):
+    - Texture/AssetsLibrary (= 3.1.0)
+    - Texture/Core (= 3.1.0)
+    - Texture/MapKit (= 3.1.0)
+    - Texture/Photos (= 3.1.0)
+    - Texture/PINRemoteImage (= 3.1.0)
+    - Texture/Video (= 3.1.0)
+  - Texture/AssetsLibrary (3.1.0):
+    - Texture/Core
+  - Texture/Core (3.1.0)
+  - Texture/MapKit (3.1.0):
+    - Texture/Core
+  - Texture/Photos (3.1.0):
+    - Texture/Core
+  - Texture/PINRemoteImage (3.1.0):
+    - PINRemoteImage/iOS (~> 3.0.0)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (3.1.0):
+    - Texture/Core
+  - UseDesk_SDK_Swift (3.4.8):
+    - Alamofire (~> 5)
+    - MarkdownKit
+    - ReachabilitySwift
+    - Socket.IO-Client-Swift (~> 16.0)
+    - SwiftSoup
+    - Texture
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - UseDesk_SDK_Swift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - MarkdownKit
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - ReachabilitySwift
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftSoup
+    - Texture
+
+EXTERNAL SOURCES:
+  UseDesk_SDK_Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  MarkdownKit: 0b15195c63cf3e39387949c4bdeccde0055e252a
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: daa34d4aa1d8449089be7d405b9d974abc4724c6
+  PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Socket.IO-Client-Swift: ee4b8f80a3db18dd7f32b266ddf273310609443c
+  Starscream: fb2c4510bebf908c62bd383bcf05e673720e91fd
+  SwiftSoup: 5dd2c1b06afc964f30d99894af6ede22ede627aa
+  Texture: 2e8ab2519452515f7f5a520f5a8f7e0a413abfa3
+  UseDesk_SDK_Swift: f3d777dd0a91fb205545df4af3b1a806aea8d4b6
+
+PODFILE CHECKSUM: 3781fd5ccb89f306a2611b5fb505d5d97428e346
+
+COCOAPODS: 1.13.0
