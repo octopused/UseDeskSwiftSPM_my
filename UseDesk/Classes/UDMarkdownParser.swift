@@ -3,6 +3,7 @@
 //  UseDesk_SDK_Swift
 
 import MarkdownKit
+import UIKit
 
 class UDMarkdownParser {
     
