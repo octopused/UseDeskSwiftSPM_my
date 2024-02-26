@@ -32,7 +32,7 @@ class UDFeedbackMessageCellNode: UDMessageCellNode {
         feedbackAction = message.feedbackAction
         
         let messageStyle = configurationStyle.messageStyle
-        var attributedString = UDMarkdownParser.mutableAttributedString(for: message.text,
+        let attributedString = UDMarkdownParser.mutableAttributedString(for: message.text,
                                                                     font: messageStyle.font,
                                                                     color: message.outgoing ? messageStyle.textOutgoingColor : messageStyle.textIncomingColor,
                                                                     linkColor: message.outgoing ? messageStyle.linkOutgoingColor : messageStyle.linkIncomingColor)
@@ -87,7 +87,6 @@ class UDFeedbackMessageCellNode: UDMessageCellNode {
         let messageStyle = configurationStyle.messageStyle
         let feedbackMessageStyle = configurationStyle.feedbackMessageStyle
         let sizeMessagesManager = UDSizeMessagesManager(messagesView: messagesView, message: message, indexPath: indexPath, configurationStyle: configurationStyle)
-        
         let hButtonsStack = ASStackLayoutSpec()
         hButtonsStack.direction = .horizontal
         hButtonsStack.spacing = feedbackMessageStyle.buttonsSpacing
